@@ -1,0 +1,9 @@
+{
+	"$schema": "./node_modules/wrangler/config-schema.json",
+	"name": "reserv-keion",
+	"main": "src/index.ts",
+	"compatibility_date": "2025-03-21",
+	"compatibility_flags": ["nodejs_compat"],
+	"observability": { "enabled": true },
+	"hyperdrive": [{ "binding": "HYPERDRIVE", "id": "bf78027838fe46dd9e700a4b0e645777" }]
+}
